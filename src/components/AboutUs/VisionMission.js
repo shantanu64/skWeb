@@ -34,7 +34,7 @@ const VisionMission = () => {
             <h1 className="ml-24 md:text-2xl lg:text-3xl md:ml-40 lg:ml-0 font-bold lg:text-right text-heroYellow">
               Our Mission
             </h1>
-            <p className=" md:w-2/3 md:ml-10 lg:ml-0 lg:w-full text-headGreen lg:mx-auto text-sm md:text-lg">
+            <p className=" md:ml-10 lg:ml-0 lg:w-full text-headGreen lg:mx-auto text-sm md:text-lg">
             Transcending agriculture by bridging the fragmented agriculture value chain with data-driven insights, artificial intelligence and end-to-end products and services
             </p>
           </div>
