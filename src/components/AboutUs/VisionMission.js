@@ -21,7 +21,7 @@ const VisionMission = () => {
             <h1 className="md:text-2xl lg:text-3xl font-bold text-left md:ml-16 lg:ml-20 text-heroYellow">
               Our Vision
             </h1>
-            <p className="md:w-2/3 text-headGreen mx-auto text-justify text-sm md:text-lg">
+            <p className="md:w-2/3 text-headGreen mx-auto text-sm md:text-lg">
               "Driving rural communities towards resilience and sustainability"
             </p>
           </div>
@@ -34,7 +34,7 @@ const VisionMission = () => {
             <h1 className="ml-24 md:text-2xl lg:text-3xl md:ml-40 lg:ml-0 font-bold lg:text-right text-heroYellow">
               Our Mission
             </h1>
-            <p className=" md:w-2/3 md:ml-10 lg:ml-0 lg:w-full text-justify text-headGreen lg:mx-auto text-sm md:text-lg">
+            <p className=" md:w-2/3 md:ml-10 lg:ml-0 lg:w-full text-headGreen lg:mx-auto text-sm md:text-lg">
             "Bring together stakeholders in the agriculture Ecosystem to provide farm management, financial support, market linkage and government convergence."
             </p>
           </div>

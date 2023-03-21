@@ -77,7 +77,10 @@ const Tabs = ({ color }) => {
               <div className="tab-content tab-space">
                 <div className={openTab === 1 ? "block" : "hidden"} id="link1">
                   <div className="flex flex-wrap justify-center gap-12">
-                    <a href="https://www.linkedin.com/in/dhanashri-mandhani-978aa9200/" target="_blank">
+                    <a
+                      href="https://www.linkedin.com/in/dhanashri-mandhani-978aa9200/"
+                      target="_blank"
+                    >
                       <div className="rounded-xl w-48 md:w-32 lg:w-32 xl:w-48">
                         <div className="w-48 md:w-32 lg:w-32 xl:w-48 rounded-xl w-48 md:w-32 lg:w-32 xl:h-48 bg-black">
                           <img
@@ -105,70 +108,98 @@ const Tabs = ({ color }) => {
                         <p className="font-light">Director</p>
                       </div>
                     </div>
-                    <a href="https://www.linkedin.com/in/akshaykhobragade/" target="_blank">
-                    <div className="rounded-xl w-48 md:w-32 lg:w-32 xl:w-48">
-                      <div className="w-48 md:w-32 lg:w-32 xl:w-48 rounded-xl w-48 md:w-32 lg:w-32 xl:h-48 bg-black">
-                        <img
-                          src={akshay}
-                          className="h-full w-full rounded-xl"
-                        />
+                    <a
+                      href="https://www.linkedin.com/in/akshaykhobragade/"
+                      target="_blank"
+                    >
+                      <div className="rounded-xl w-48 md:w-32 lg:w-32 xl:w-48">
+                        <div className="w-48 md:w-32 lg:w-32 xl:w-48 rounded-xl w-48 md:w-32 lg:w-32 xl:h-48 bg-black">
+                          <img
+                            src={akshay}
+                            className="h-full w-full rounded-xl"
+                          />
+                        </div>
+                        <div className="text-center my-4">
+                          <p className="font-bold">Akshay Khobragade</p>
+                          <p className="font-light">Chief Operating Officer</p>
+                        </div>
                       </div>
-                      <div className="text-center my-4">
-                        <p className="font-bold">Akshay Khobragade</p>
-                        <p className="font-light">Chief Operating Officer</p>
-                      </div>
-                    </div>
                     </a>
                   </div>
                 </div>
-                <div className={openTab === 2 ? "block" : "hidden"} id="link1">
+                {/* <div className={openTab === 2 ? "block" : "hidden"} id="link1">
                   <div className="flex flex-wrap justify-center gap-12">
                     <div className="rounded-xl w-48 md:w-32 lg:w-32 xl:w-48">
                       <div className="w-48 md:w-32 lg:w-32 xl:w-48 rounded-xl w-48 md:w-32 lg:w-32 xl:h-48 bg-black"></div>
                       <div className="text-center my-4">
-                        <p className="font-bold">Paresh</p>
+                        <p className="font-bold">Paresh Kullarkar</p>
+                        <p className="font-light">Manager-Agri Operations</p>
+                      </div>
+                    </div>
+                    <div className="rounded-xl w-48 md:w-32 lg:w-32 xl:w-48">
+                      <div className="w-48 md:w-32 lg:w-32 xl:w-48 rounded-xl w-48 md:w-32 lg:w-32 xl:h-48 bg-black"></div>
+                      <div className="text-center my-4">
+                        <p className="font-bold">Ronak Agarwal</p>
+                        <p className="font-light">Legal Associate</p>
+                      </div>
+                    </div>
+                    <div className="rounded-xl w-48 md:w-32 lg:w-32 xl:w-48">
+                      <div className="w-48 md:w-32 lg:w-32 xl:w-48 rounded-xl w-48 md:w-32 lg:w-32 xl:h-48 bg-black"></div>
+                      <div className="text-center my-4">
+                        <p className="font-bold">Sumit Mungale</p>
                         <p className="font-light">
-                          Founder and Managing Director
+                          Manager-Digital Media & Marketing
                         </p>
                       </div>
                     </div>
                     <div className="rounded-xl w-48 md:w-32 lg:w-32 xl:w-48">
                       <div className="w-48 md:w-32 lg:w-32 xl:w-48 rounded-xl w-48 md:w-32 lg:w-32 xl:h-48 bg-black"></div>
                       <div className="text-center my-4">
-                        <p className="font-bold">Pradhyumn Mandhani</p>
-                        <p className="font-light">Director</p>
+                        <p className="font-bold">Anjali Rane</p>
+                        <p className="font-light">Accountant</p>
                       </div>
                     </div>
                     <div className="rounded-xl w-48 md:w-32 lg:w-32 xl:w-48">
                       <div className="w-48 md:w-32 lg:w-32 xl:w-48 rounded-xl w-48 md:w-32 lg:w-32 xl:h-48 bg-black"></div>
                       <div className="text-center my-4">
-                        <p className="font-bold">Akshay Khobragade</p>
-                        <p className="font-light">Chief Operating Officer</p>
+                        <p className="font-bold">Kajal Rathod</p>
+                        <p className="font-light">Receptionist</p>
                       </div>
                     </div>
                     <div className="rounded-xl w-48 md:w-32 lg:w-32 xl:w-48">
                       <div className="w-48 md:w-32 lg:w-32 xl:w-48 rounded-xl w-48 md:w-32 lg:w-32 xl:h-48 bg-black"></div>
                       <div className="text-center my-4">
-                        <p className="font-bold">Dhanashree Mandhani</p>
-                        <p className="font-light">CEO</p>
+                        <p className="font-bold">Sneha Dhara</p>
+                        <p className="font-light">Front Desk Executive</p>
                       </div>
                     </div>
                     <div className="rounded-xl w-48 md:w-32 lg:w-32 xl:w-48">
                       <div className="w-48 md:w-32 lg:w-32 xl:w-48 rounded-xl w-48 md:w-32 lg:w-32 xl:h-48 bg-black"></div>
                       <div className="text-center my-4">
-                        <p className="font-bold">Dhanashree Mandhani</p>
-                        <p className="font-light">CEO</p>
+                        <p className="font-bold">Chandrakant Ghadshi</p>
+                        <p className="font-light">Office Worker</p>
                       </div>
                     </div>
                     <div className="rounded-xl w-48 md:w-32 lg:w-32 xl:w-48">
                       <div className="w-48 md:w-32 lg:w-32 xl:w-48 rounded-xl w-48 md:w-32 lg:w-32 xl:h-48 bg-black"></div>
                       <div className="text-center my-4">
-                        <p className="font-bold">Dhanashree Mandhani</p>
-                        <p className="font-light">CEO</p>
+                        <p className="font-bold">Satish Pawar</p>
+                        <p className="font-light">
+                          Drone Pilot cum Center Operator
+                        </p>
+                      </div>
+                    </div>
+                    <div className="rounded-xl w-48 md:w-32 lg:w-32 xl:w-48">
+                      <div className="w-48 md:w-32 lg:w-32 xl:w-48 rounded-xl w-48 md:w-32 lg:w-32 xl:h-48 bg-black"></div>
+                      <div className="text-center my-4">
+                        <p className="font-bold">Sahil Khelkar</p>
+                        <p className="font-light">
+                          Drone Pilot cum Store Operator
+                        </p>
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
