@@ -16,7 +16,7 @@ const MainVisionValue = () => {
       <div className="md:w-1/2 my-auto">
         <div className="relative">
           <img src={visionValue} />
-          <div className="absolute top-4 left-4 md:-top-2 lg:-top-3 md:left-7 lg:left-10 xl:left-12">
+          <div className="absolute  top-4 left-4 md:-top-2 lg:-top-3 md:left-7 lg:left-10 xl:left-12">
             <img
               src={team1}
               className="h-[175px] md:h-[220px] lg:h-[300px] xl:h-teamH xl:w-team rounded-3xl md:rounded-3xl lg:rounded-4xl"
