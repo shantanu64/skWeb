@@ -3,7 +3,7 @@ import { FaFacebook } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import visionValue from "../../assets/visionValueBg.png";
 import ceo from "../../assets/ceo.png";
-import team1 from "../../assets/team1.JPG";
+import team1 from "../../assets/team1.jpg";
 
 const MainVisionValue = () => {
   return (

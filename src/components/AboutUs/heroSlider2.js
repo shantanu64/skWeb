@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import team3 from '../../assets/team3.JPG'
-import team4 from '../../assets/team4.JPG'
-import team9 from '../../assets/team9.JPG'
-import team10 from '../../assets/team10.JPG'
+import team3 from '../../assets/team3.jpg'
+import team4 from '../../assets/team4.jpg'
+import team9 from '../../assets/team9.jpg'
+import team10 from '../../assets/team10.jpg'
 
 export default class HeroSlider2 extends Component {
   render() {
