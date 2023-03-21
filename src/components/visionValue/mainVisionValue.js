@@ -9,7 +9,7 @@ const MainVisionValue = () => {
   return (
     <div className="flex flex-col md:flex-row my-4 md:my-0 md:gap-8 lg:gap-0 lg:my-14 xl:my-8 w-11/12 mx-auto border-solid xl:h-100">
       <div className="block md:hidden my-4 md:my-0">
-        <h1 className="font-bold mx-auto w-max xl:mx-auto lg:ml-14 text-2xl md:text-4xl lg:text-5xl xl:text-7xl md:w-3/4 lg:w-3/5 xl:w-3/5 text-headGreen">
+        <h1 className="font-bold mx-auto w-max xl:mx-auto v  lg:ml-14 text-2xl md:text-4xl lg:text-5xl xl:text-7xl md:w-3/4 lg:w-3/5 xl:w-3/5 text-headGreen">
           Our Values & <span className="text-[#FCBB12]">Vision</span>
         </h1>
       </div>
