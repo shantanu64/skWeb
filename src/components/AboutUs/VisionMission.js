@@ -22,7 +22,7 @@ const VisionMission = () => {
               Our Vision
             </h1>
             <p className="md:w-2/3 text-headGreen mx-auto text-sm md:text-lg">
-              "Driving rural communities towards resilience and sustainability"
+              Driving rural communities towards resilience and sustainability
             </p>
           </div>
         </div>
@@ -35,7 +35,7 @@ const VisionMission = () => {
               Our Mission
             </h1>
             <p className=" md:w-2/3 md:ml-10 lg:ml-0 lg:w-full text-headGreen lg:mx-auto text-sm md:text-lg">
-            "Bring together stakeholders in the agriculture Ecosystem to provide farm management, financial support, market linkage and government convergence."
+            Transcending agriculture by bridging the fragmented agriculture value chain with data-driven insights, artificial intelligence and end-to-end products and services
             </p>
           </div>
         </div>
