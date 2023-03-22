@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import team11 from "../../assets/team11.jpg";
-import team12 from "../../assets/team12.jpg";
-import team15 from "../../assets/team15.jpg";
+// import team11 from "../../assets/team11.jpg";
+// import team12 from "../../assets/team12.jpg";
+// import team15 from "../../assets/team15.jpg";
 
 export default class HeroSlider4 extends Component {
   render() {
@@ -47,7 +47,7 @@ export default class HeroSlider4 extends Component {
           <div className="rounded-3xl rounded-br-aboutUsHeroRadius h-56">
             <div className="bg-red-200 rounded-3xl rounded-br-aboutUsHeroRadius h-full h-56 w-96 mx-auto rounded-3xl rounded-br-aboutUsHeroRadius">
               <img
-                src={team11}
+                src="team11.jpg"
                 className="h-full w-full rounded-br-aboutUsHeroRadius rounded-3xl"
               />
             </div>
@@ -55,7 +55,7 @@ export default class HeroSlider4 extends Component {
           <div className="rounded-3xl rounded-br-aboutUsHeroRadius h-56">
             <div className="bg-red-200 rounded-3xl rounded-br-aboutUsHeroRadius h-full h-56 w-96 mx-auto rounded-3xl rounded-br-aboutUsHeroRadius">
               <img
-                src={team12}
+                src="team12.jpg"
                 className="h-full w-full rounded-br-aboutUsHeroRadius rounded-3xl"
               />
             </div>
@@ -63,7 +63,7 @@ export default class HeroSlider4 extends Component {
           <div className="rounded-3xl rounded-br-aboutUsHeroRadius h-56">
             <div className="bg-red-200 rounded-3xl rounded-br-aboutUsHeroRadius h-full h-56 w-96 mx-auto rounded-3xl rounded-br-aboutUsHeroRadius">
               <img
-                src={team15}
+                src="team15.jpg"
                 className="h-full w-full rounded-br-aboutUsHeroRadius rounded-3xl"
               />
             </div>

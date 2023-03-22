@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import team13 from '../../assets/team13.jpg'
-import team14 from '../../assets/team14.jpg'
+// import team13 from '../../assets/team13.jpg'
+// import team14 from '../../assets/team14.jpg'
 export default class HeroSlider1 extends Component {
   render() {
     var settings = {
@@ -44,13 +44,13 @@ export default class HeroSlider1 extends Component {
         <Slider {...settings}>
           <div className="rounded-3xl h-40">
             <div className="bg-red-200 rounded-3xl h-full h-40 w-40 mx-auto rounded-3xl">
-            <img src={team13} className="h-full w-full rounded-3xl" />
+            <img src="team13.jpg" className="h-full w-full rounded-3xl" />
 
             </div>
           </div>
           <div className="rounded-3xl h-40">
             <div className="bg-red-200 rounded-3xl h-full h-40 w-40 mx-auto rounded-3xl">
-            <img src={team14} className="h-full w-full rounded-3xl" />
+            <img src="team14.jpg" className="h-full w-full rounded-3xl" />
 
             </div>
           </div>
