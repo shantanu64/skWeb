@@ -3,7 +3,7 @@ import { FaFacebook } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import visionValue from "../../assets/visionValueBg.png";
 import ceo from "../../assets/ceo.png";
-import team1 from "../../assets/team1.jpg";
+// import team1 from "../../assets/team1.jpg";
 
 const MainVisionValue = () => {
   return (
@@ -18,7 +18,7 @@ const MainVisionValue = () => {
           <img src={visionValue} />
           <div className="absolute  top-4 left-4 md:-top-2 lg:-top-3 md:left-7 lg:left-10 xl:left-12">
             <img
-              src={team1}
+              src="team1.jpg"
               className="h-[175px] md:h-[220px] lg:h-[300px] xl:h-teamH xl:w-team rounded-3xl md:rounded-3xl lg:rounded-4xl"
             />
             {/* <div className='bg-green-800 rounded-tr-3xl px-2 rounded-br-3xl rounded-bl-3xl absolute w-6/12 h-44 -top-4 -left-12'>
