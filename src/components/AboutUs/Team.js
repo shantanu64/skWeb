@@ -99,7 +99,7 @@ const Tabs = ({ color }) => {
                     <div className="rounded-xl w-48 md:w-32 lg:w-32 xl:w-48">
                       <div className="w-48 md:w-32 lg:w-32 xl:w-48 rounded-xl w-48 md:w-32 lg:w-32 xl:h-48 bg-black">
                         <img
-                          src={praduymn}
+                          src="praduymn.jpg"
                           className="h-full w-full rounded-xl"
                         />
                       </div>
