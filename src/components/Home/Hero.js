@@ -1,5 +1,6 @@
 import React from "react";
 import Mascot from "../../assets/Mascot.png";
+import { Button } from "@material-ui/core";
 
 const Hero = () => {
   return (
@@ -28,16 +29,17 @@ const Hero = () => {
             </p>
           </div>
           <div className="flex gap-2 md:gap-8">
-            <div className="border-2 border-heroYellow rounded-md p-2 md:p-2 lg:p-3 lg:px-7 bg-heroYellow text-white font-semibold">
-              <a href="/aboutUs">
+            <a href="/aboutUs">
+              <div className="border-2 border-heroYellow rounded-md p-2 md:p-2 lg:p-3 lg:px-7 bg-heroYellow text-white font-semibold">
                 <button>Read more</button>
-              </a>
-            </div>
-            <div className="border-2 border-white rounded-md p-2 md:p-2 lg:p-3 lg:px-7 text-white font-semibold">
-              <a href="/contactUs">
+              </div>
+            </a>
+            <a href="/contactUs">
+              <div className="border-2 border-white rounded-md p-2 md:p-2 lg:p-3 lg:px-7 text-white font-semibold">
                 <button>Contact Us</button>
-              </a>
-            </div>
+
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -45,7 +47,7 @@ const Hero = () => {
       <div className="hidden md:block w-1/2">
         <img
           src={Mascot}
-          className="md:mt-20 md:ml-4 lg:mt-28 lg:ml-10 lg:h-5/6 xl:h-full xl:mt-10 xl:ml-28"
+          className="md:mt-20 md:ml-4 py-5 lg:mt-28  lg:ml-10 lg:h-5/6 xl:h-full xl:mt-11 xl:ml-28"
         />
       </div>
     </div>

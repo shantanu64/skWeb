@@ -26,16 +26,16 @@ const VisionMission = () => {
             </p>
           </div>
         </div>
-        <div className="items-center flex flex-row-reverse justify-between">
+        <div className="items-center flex flex-row-reverse justify-between ">
           <div className="w-1/2 md:w-1/2 lg:w-full lg:mr-12">
             <img className="p-6 w-11/12 mx-auto md:w-2/4  lg:w-2/4 md:mx-auto" src={Mission} />
           </div>
           <div className="w-1/2 md:w-1/2 lg:w-2/5 flex flex-col gap-3 lg:ml-8">
-            <h1 className="ml-24 md:text-2xl lg:text-3xl md:ml-40 lg:ml-0 font-bold lg:text-right text-heroYellow">
+            <h1 className="ml-24 md:text-2xl lg:text-3xl md:ml-40 lg:ml-0 font-bold lg:text-left text-heroYellow">
               Our Mission
             </h1>
             <p className=" md:ml-10 lg:ml-0 lg:w-full text-headGreen lg:mx-auto text-sm md:text-lg">
-            Transcending agriculture by bridging the fragmented agriculture value chain with data-driven insights, artificial intelligence and end-to-end products and services
+              Transcending agriculture by bridging the fragmented agriculture value chain with data-driven insights, artificial intelligence, and end-to-end products and services
             </p>
           </div>
         </div>

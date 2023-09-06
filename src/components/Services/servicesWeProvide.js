@@ -28,8 +28,7 @@ const ServicesWeProvide = () => {
                 Drone Services
               </div>
               <div className="mx-auto mt-1 text-xs md:text-base lg:text-sm px-5 text-cardBlue text-center">
-                We provide the best in class drone service in the whole
-                agriculture Industry
+                We provide the best-in-class drone service in the whole agriculture industry.
               </div>
               <div className="mx-auto my-8">
                 <a href="tel:8447911453">
@@ -52,8 +51,7 @@ const ServicesWeProvide = () => {
                 Finance Services
               </div>
               <div className="mx-auto mt-1 text-xs md:text-base lg:text-sm px-5 text-cardYellow text-center">
-                We provide the best in class drone service in the whole
-                agriculture Industry
+                We provide the best-in-class drone service in the whole agriculture industry.
               </div>
               <div className="mx-auto my-8">
                 <a href="tel:8447911453">
@@ -76,8 +74,7 @@ const ServicesWeProvide = () => {
                 Soil Testing
               </div>
               <div className="mx-auto mt-1 text-xs md:text-base lg:text-sm px-5 text-cardBrown text-center">
-                We provide the best in class drone service in the whole
-                agriculture Industry
+                We provide the best-in-class drone service in the whole agriculture industry.
               </div>
 
               <div className="mx-auto my-8">

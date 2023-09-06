@@ -10,7 +10,7 @@ import LgFooter from "./Footer";
 import Hero from "./Hero";
 import ServicesIndustries from "./ServicesIndustries";
 
-const Home = () => {
+function Home () {
   return (
     <>
       <div className="">

@@ -1,8 +1,92 @@
-import React from "react";
+import React, { useState } from "react";
 import { Formik, Form, useField, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
+// import { json } from "react-router-dom";
 
 const ContactForm = () => {
+  // const [body, setBody] = useState("")
+
+  const [submittedData, setSubmittedData] = useState(null)
+  // console.log('>>>>>>>>>>>>>>', submittedData)
+  const submitHandler = (body) => {
+
+    const emailBody =
+      ` <html>
+        <head>
+          <style>
+            table {
+              border-collapse: collapse;
+      }
+            table, th, td {
+              border: 1px solid black;
+      }
+            th, td {
+              padding: 8px;
+            text-align: left;
+      }
+          </style>
+        </head>
+        <body>
+          <h2>Submitted Form Data</h2>
+          <table>
+            <tr>
+              <th>Field</th>
+              <th>Value</th>
+            </tr>
+            <tr>
+              <td>First Name  :-</td>
+              <td>${body.firstName}</td>
+            </tr>
+            <tr>
+              <td>Last Name :-</td>
+              <td>${body.lastName}</td>
+            </tr>
+            <tr>
+              <td>Email :-</td>
+              <td>${body.email}</td>
+            </tr>
+            <tr>
+              <td>Phone Number :-</td>
+              <td>${body.number}</td>
+            </tr>
+            <tr>
+              <td>Purpose of Contact :-</td>
+              <td>${body.contactPurpose}</td>
+            </tr>
+            <tr>
+              <td>Message :-</td>
+              <td>${body.message}</td>
+            </tr>
+          </table>
+        </body>
+      </html>`
+    // const email = body?.email
+    // console.log(body?.email, email)
+
+    const config = {
+      Username: "AKIAXG74PM34KKYMR76N",
+      Password: "BMeZ6UWhZDJw/Mr5fnzFnxcMFUmRpNSOEctrS/LooDla",
+      Host: "smtp.elasticemail.com",
+      Port: 587,
+      To: 'rahul@salamkisan.com',
+      // From: `${body?.email}`,
+      From: 'shruti.p-ext@idigicloudtech.in',
+
+      Subject: "This is the subject",
+      Body: emailBody
+    }
+
+    if (window.Email) {
+      window.Email.send(config).then((data) => {
+        setSubmittedData(body)
+        alert("email sent")
+
+        console.log(data, 'esdrftgyhujikewrftghyjuk')
+      })
+    } 
+  }
+
+  const [submitted, isSubmitted] = useState(false)
   return (
     <>
       <Formik
@@ -18,10 +102,11 @@ const ContactForm = () => {
           firstName: Yup.string().required("Please enter your First Name"),
           lastName: Yup.string().required("Please enter your Last Name"),
           email: Yup.string()
-            .email("Invalid email format")
+
+
             .required("Please enter your email"),
           contactPurpose: Yup.string()
-            .oneOf(["abc", "def", "xyz"], "Please select a valid designation")
+            .oneOf(["investor", "General Enquiry", "Farmer", "Career"], "Please select a valid designation")
             .required("Please select a designation"),
           number: Yup.string()
             .min(10, "Must be 10 characters")
@@ -30,14 +115,22 @@ const ContactForm = () => {
             .required("Please enter your phone number"),
           message: Yup.string().required("Please enter your message"),
         })}
-        onSubmit={(values, { setSubmitting }) => {
+        onSubmit={(values, { setSubmitting, resetForm }) => {
           setTimeout(() => {
+            console.log("swertyui", values)
+            submitHandler(values)
+            // setBody(values)
+
+            isSubmitted(true)
             // alert(JSON.stringify(values, null, 2));
+            resetForm();
             setSubmitting(false);
           }, 400);
         }}
       >
         <Form className="p-4 w-full">
+
+
           <div className="flex flex-row gap-4 my-4">
             <div className="w-1/2">
               <label className="font-semibold text-gray-500">First Name</label>
@@ -68,7 +161,7 @@ const ContactForm = () => {
             <label className="font-semibold text-gray-500">Email</label>
             <Field
               name="email"
-              type="text"
+              type="email"
               className="border border-solid h-12 pl-3 border-2 border-gray-300 rounded-lg w-full outline-none"
               placeholder="Email"
             />{" "}
@@ -97,10 +190,11 @@ const ContactForm = () => {
                 className="border text-gray-500 border-solid h-12 pl-3 border-2 border-gray-300 rounded-lg w-full outline-none"
               >
                 {" "}
+                <option value="">Select Purpose</option>
                 <option value="investor">Investment</option>
-                <option value="abc">General Enquiry</option>
-                <option value="def">Farmer</option>
-                <option value="xyz">Career</option>
+                <option value="General Enquiry">General Enquiry</option>
+                <option value="Farmer">Farmer</option>
+                <option value="Career">Career</option>
               </Field>
             </div>
             <div className="text-red-500 text-sm font-semibold">

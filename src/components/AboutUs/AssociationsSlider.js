@@ -6,6 +6,8 @@ import Agrinext from "../../assets/agrinextLogo.png";
 import Agrowon from "../../assets/agrowonLogo.jpeg";
 import Sakal from "../../assets/sakalLogo.png";
 import IITK from "../../assets/bluelog.jpg"
+
+
 export default class AssociationsSlider extends Component {
   render() {
     var settings = {

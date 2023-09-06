@@ -1,0 +1,355 @@
+ 
+    {
+      "rolesData": 
+      [
+        {
+            "id": 0,
+            "name":"cluster-officer",
+            "positon": "Cluster Officer",
+            "Employment": "Full-Time",
+            "Role": "We are looking for a Cluster Officer to coordinate agricultural development initiatives in a specific geographic area to enhance productivity and foster sustainable practices.",
+            "responsibility": [
+            
+             "Data Analysis: Collect, analyze, and utilize agricultural data for informed decisions.",
+             "Farmer Engagement: Support farmers with modern techniques and efficient practices.",
+             "Community Outreach: Promote sustainable farming through workshops and awareness.",
+             "Cluster Coordination: Facilitate collaboration among stakeholders for productivity.",
+              "Development Planning: Create and implement agricultural strategies for the cluster.",
+              "Capacity Building: Design training to enhance skills in farming, management, and marketing.",
+               "Market Linkages: Connect farmers with markets and enhance product quality.",
+              "Policy Advocacy: Influence favorable policies for agricultural growth.",
+             "Project Management: Oversee initiatives, manage budgets, and report progress.",
+             "Stakeholder Relations: Collaborate with agencies, NGOs, and community groups.",
+              "Reporting: Document achievements, challenges, and project outcomes."
+            ],
+            "qulification": [
+                "Education: Bachelor's/Master's in agriculture or related field, with 1-2 years of experience.",
+                "Knowledge: Understanding of farming practices, data analysis, and market dynamics.",
+                "Project Management: Skills in planning, budgeting, and reporting.",
+                "Communication: Effective communication and relationship-building.",
+                "Data Skills: Proficiency in data collection, analysis, and interpretation.",
+                "Training Experience: Ability to design and deliver training programs.",
+                "Market Insight: Knowledge of value chains and market-oriented agriculture.",
+                "Policy Awareness: Familiarity with agricultural policies and advocacy.",
+                "Computer Proficiency: Skills in Microsoft Office Suite and data management.",
+                "Language: Proficiency in local language; English skills beneficial."
+            ],
+            "location":"Maharashtra",
+            "Department":"CEO Office",
+            "salary":"1.8-2.4  LPA" 
+
+        },
+        {
+            "id":1,
+            "name":"agri-operational-manager",
+            "positon": "Agri Operational Manager",
+            "Employment": "Full-Time",
+            "Role":"Lead agricultural advancements to maximize crop production. Collaborate with farmers, organizations, and researchers to implement sustainable practices. ",
+            "responsibility" :[
+                
+                "Crop Management: Advise on planting, fertilization, pest control, and health monitoring.",
+                "Soil Analysis: Optimize soil health through analysis and amendments.",
+                "Innovation: Stay current with research, conduct trials, and apply new technologies.",
+                "Precision Agriculture: Use data for precise farming techniques.",
+                "Post-Harvest: Ensure crop quality, storage, and value preservation.",
+                "Education: Train farmers, troubleshoot issues, and share insights.",
+                "Sustainability: Promote eco-friendly farming practices.",
+                "Team Leadership: Manage staff, foster teamwork, and ensure safety.",
+                "Financial Management: Budget, analyze performance, and explore growth opportunities.",
+                "Regulatory Compliance: Ensure adherence to regulations and safety standards.",
+                "Market Strategy: Identify trends, build relationships, and promote products.",
+                "Territory Management: Efficiently cover and manage designated territories.",
+                "Business Development: Prospect leads, expand market share, and drive growth.",
+                "Customer Relations: Build strong relationships and provide product support."
+            ],
+            "qulification":[
+                "Experience: 5-8 years in agri or related fields.",
+                "Education: Bachelor's/Master's in agriculture/agri-business management.",
+                "Operational Skills: Proficient in agri operations and territory management.",
+                "Business Acumen: Skilled in business development, sales strategies, and target achievement.",
+                "Communication: Strong Marathi communication, presentation, and negotiation.",
+                "Leadership: Lead teams, foster collaboration, and provide guidance.",
+                "Industry Knowledge: Familiarity with agri industry and market dynamics."
+        
+               ],
+               "location":"Mumbai",
+               "Department":"CEO Office",
+               "salary":"7-10  LPA" 
+   
+        
+        },
+        {
+            "id":2,
+            "name":"development-officer",
+            "positon": "Development Officer",
+            "Employment": "Full-Time",
+            "Role":"We are looking for a Development Officer to coordinate and facilitate agricultural development initiatives to enhance productivity and foster sustainable practices.",
+            "responsibility" :[
+                
+                "Data Analysis: Collect and analyze agriculture-related data for informed decision-making.",
+                "Engagement: Support farmers with modern techniques, practices, and tech adoption.",
+                "Outreach: Conduct campaigns and workshops for sustainable farming methods.",
+                "Cluster Coordination: Collaborate with stakeholders to drive agricultural activities.",
+                "Development Planning: Create strategies aligning local resources and needs.",
+                "Training: Enhance farmers' skills in crop production, management, and marketing.",
+                "Market Access: Establish links to buyers, processors, and enhance product quality.",
+                "Advocacy: Champion favorable policies for agriculture sector growth.",
+                "Project Management: Oversee initiatives, ensuring timely execution and reporting.",
+                "Stakeholder Relations: Collaborate for shared insights and funding opportunities."
+            ],
+            "qulification":[
+                "Education: Bachelor's or master's degree with 3-5 years' agri experience.",
+    "Agri Knowledge: Understand farming practices, post-harvest, and sustainability.",
+    "Project Skills: Proficient in design, budgeting, monitoring, and reporting.",
+    "Communication: Effectively engage diverse stakeholders.",
+    "Data Proficiency: Analyze agricultural data for evidence-based decisions.",
+    "Training Expertise: Design and deliver farmer education programs.",
+    "Market Insight: Navigate agricultural markets and value chains.",
+    "Policy Engagement: Advocate for supportive agricultural policies.",
+    "Tech Proficiency: Skilled in Office Suite, GIS, and data tools.",
+    "Language: Marathi proficiency advantageous, English may be required."
+        
+               ],
+               "location":"Maharashtra",
+               "Department":"Agriculture Operations",
+               "salary":"3.6-4.8  LPA" 
+   
+        
+        },
+        {
+            "id":3,
+            "name":"dealership-manager",
+            "positon": "Dealership Manager",
+            "Employment": "Full-Time",
+            "Role": "We are looking for a Dealership Manager to develop and maintain strong relationships with agricultural dealers, distributors, and retailers.",
+            "responsibility" :[
+                
+                "Relationship Building: Develop strong connections with dealers, distributors, and retailers.",
+                "Sales Strategy: Collaborate on sales tactics, marketing, and expansion.",
+                "Account Oversight: Manage orders, inventory, and delivery coordination.",
+                "Product Expertise: Provide training and support on agricultural products.",
+                "Market Insights: Analyze trends, gather feedback, and enhance offerings.",
+                "Negotiation: Handle contracts and agreements while ensuring compliance.",
+                "Customer Service: Address concerns promptly and maintain dealer satisfaction.",
+                "Performance Evaluation: Assess sales, market share, and dealer performance.",
+                "Reporting: Prepare reports and offer growth recommendations.",
+                "Network Expansion: Identify opportunities for new partnerships.",
+                "Process Improvement: Optimize operations and customer service.",
+                "Travel: Flexibility for travel within assigned region."
+            ],
+            "qulification":[
+                "Experience: 10-15 years in dealer relationship management in agri fields.",
+                "Education: Bachelor's degree in relevant fields; master's preferred.",
+                "Industry Knowledge: Strong understanding of agri equipment and practices.",
+                "Sales Skills: Proficient in strategies, market analysis, and CRM.",
+                "Interpersonal Skills: Effective communication, negotiation, and conflict resolution.",
+                "Analytical Abilities: Gather, analyze data, and make informed decisions.",
+                "Product Familiarity: Understanding of agricultural products and emerging trends.",
+                "Customer Focus: Prioritize excellent customer service and support.",
+                "Business Acumen: Grasp of business principles and financial management.",
+                "Software Proficiency: Skilled in Microsoft Office, CRM, and data analysis tools."
+        
+               ],
+               "location":"Maharashtra",
+               "Department":"Agriculture Operations",
+               "salary":"7-10  LPA" 
+   
+        
+        },
+        {
+            "id":4,
+            "name":"agriculture-assistant",
+            "positon": "Agriculture Assistant",
+            "Employment": "Full-Time",
+            "Role": "We are looking for an Agriculture Assistant to optimize agricultural practices, improve crop production, and ensure sustainable land management.",
+            "responsibility" :[
+                
+                "Research and Innovation: Stay updated, collaborate on trials, and enhance farming methods.",
+                "Data Analysis: Interpret agricultural data for insights and improved practices.",
+                "Field Operations: Assist in planting, cultivating, and harvesting. Manage equipment and irrigation.",
+                "Market Insights: Identify trends, develop marketing strategies, and connect with buyers.",
+                "Consultation Services: Offer expertise, tailored solutions, and technical support.",
+                "Education and Training: Conduct workshops, guide tech adoption, and promote best practices.",
+                "Pest Management: Diagnose issues, develop IPM strategies, and monitor crops.",
+                "Sustainable Practices: Advocate and implement eco-friendly approaches.",
+                "Safety and Compliance: Ensure safe practices and regulatory adherence.",
+                "Record Keeping: Maintain accurate records of farming activities and observations.",
+                "Collaboration: Network with peers, attend events, and stay updated."
+            ],
+            "qulification":[
+                "Experience: 1-2 years in agri or allied fields.",
+    "Education: Bachelor's/Master's in agriculture or agri-business management.",
+    "Knowledge: Strong grasp of agronomy, crop techniques, soil science, and pest management.",
+    "Technical Proficiency: Skilled in soil analysis, pest identification, and data interpretation.",
+    "Field Experience: Practical insight from internships or hands-on farm work.",
+    "Research and Data Skills: Ability to analyze data and conduct research.",
+    "Communication: Effective in conveying technical info and building relationships."
+        
+               ],
+               "location":"Mumbai",
+               "Department":"CEO Office",
+               "salary":"1.8-3  LPA" 
+   
+        
+        },
+        {
+            "id":5,
+            "name":"performance-marketer",
+            "positon": "Performance Marketer",
+            "Employment": "Full-Time",
+            "Role": "We are looking for a Digital Media Marketer to develop and execute digital marketing strategies that drive brand awareness, engagement, and lead generation.",
+            "responsibility" :[
+                "Develop and execute digital marketing campaigns.",
+                "Increase website traffic, engagement, and conversions.",
+                "Analyze KPIs and trends for continuous improvement.",
+                "Optimize SEO, manage paid advertising campaigns.",
+                "Collaborate with teams, maintain influencer relations.",
+                "Provide insights and reports to management."
+            ],
+            "qulification":[
+                "Education: Bachelor's degree in Marketing or related field.",
+                "Experience: Proven experience in digital marketing.",
+                "Skills: Strong understanding of digital channels.",
+                "Technical Proficiency: Proficiency in analytics and automation tools.",
+                "Communication: Excellent communication and analytical skills.",
+                "Attributes: Creative, with project management abilities."
+        
+               ],
+               "location":"Mumbai",
+               "Department":"CEO Office",
+               "salary":"2.5-3  LPA" 
+   
+        
+        },
+        {
+            "id":6,
+            "name":"entomologist-pest-and-disease-management",
+            "positon": "Entomologist - Pest and Disease Management",
+            "Employment": "Full-Time",
+            "Role":" We are looking for an Entomologist specializing in pest and disease management to study and develop strategies for controlling and mitigating their impact on agricultural crops.",
+            "responsibility" :[
+                
+                "Pest Monitoring: Conduct surveys to assess pest populations and damage.",
+                "Integrated Pest Management: Develop strategies for effective pest control.",
+                "Tech Innovation: Drive development of advanced pest detection technologies.",
+                "Research and Analysis: Analyze data for insights and predictions.",
+                "Field Testing: Validate solutions under real-world conditions.",
+                "Expert Consultation: Provide guidance and training to industries."
+            ],
+            "qulification":[
+                "Education: Ph.D. or Master's in Entomology or related field.",
+    "Expertise: Specialization in pest management or IPM preferred.",
+    "Tech Proficiency: Familiarity with remote sensing and data analysis.",
+    "Problem-Solving: Innovative thinker for complex pest challenges.",
+    "Communication: Effective in interdisciplinary collaborations.",
+    "Field Experience: Practical knowledge of pest monitoring.",
+    "Continuous Learning: Stay updated with latest advancements."
+        
+               ],
+               "location":"Mumbai",
+               "Department":"CEO Office",
+               "salary":"7-10  LPA" 
+   
+        
+        },
+        {
+            "id":7,
+            "name":"marketing-manager",
+            "positon": "Marketing Manager",
+            "Employment": "Full-Time",
+            "Role":"We are looking for a Marketing Manager to oversee and execute all aspects of the company's brand strategy and marketing activities to drive brand awareness and growth.",
+            "responsibility" :[
+                
+                "Develop and execute comprehensive brand strategies.",
+    "Plan and implement effective marketing campaigns.",
+    "Drive digital marketing initiatives for online presence.",
+    "Analyze market trends and consumer insights.",
+    "Manage public relations and media relations.",
+    "Lead and mentor a team of marketing professionals.",
+    "Collaborate cross-functionally for business alignment."
+            ],
+            "qulification":[
+                "Experience: 5-8 years of related experience.",
+                "Education: Bachelor's degree in marketing or related field.",
+                "Skills: Strong brand management and digital marketing skills.",
+                "Analytical Abilities: Analytical mindset for market research and data analysis.",
+                "Communication: Effective communication and team leadership abilities.",
+                "Strategic Thinking: Strategic thinking and adaptability in a dynamic landscape."
+        
+               ],
+               "location":"Mumbai",
+               "Department":"CEO Office",
+               "salary":"10-12 LPA" 
+   
+        
+        },
+        {
+            "id":8,
+            "name":"strategic-partnerships-manager",
+            "positon": "Strategic Partnerships Manager",
+            "Employment": "Full-Time",
+            "Role":"We are looking for a Manager - Strategic Partnerships to drive growth and expansion by identifying and pursuing new business opportunities to increase revenue and market share.",
+            "responsibility" :[
+                "Conduct market research to identify opportunities.",
+    "Develop and execute business growth strategies.",
+    "Build and maintain client and stakeholder relationships.",
+    "Lead lead generation and sales efforts.",
+    "Collaborate with cross-functional teams.",
+    "Provide insights and analysis for strategy refinement.",
+    "Lead and manage a high-performing team."
+            ],
+            "qulification":[
+                "Education: Bachelor's degree in relevant field; MBA preferred.",
+                "Experience: Proven experience in business development or sales.",
+                "Skills: Strong strategic thinking and analytical skills.",
+                "Communication: Excellent communication and relationship-building abilities.",
+                "Leadership Abilities: Results-oriented with leadership and team management skills.",
+                "Adaptability: Adaptability and flexibility to evolving business landscapes."
+        
+               ],
+               "location":"Mumbai",
+               "Department":"CEO Office",
+               "salary":"7-10  LPA" 
+   
+        
+        },
+        {
+            "id":9, 
+            "name":"business-analyst",
+            "positon": "Business Analyst",
+            "Employment": "Full-Time",
+            "Role":"We are looking for a Business Analyst to analyze business processes, identify opportunities for improvement, and provide insights for strategic decision- making.",
+            "responsibility" :[
+                "Analyze business processes and identify improvement opportunities.",
+    "Gather and document requirements from stakeholders.",
+    "Conduct data analysis to uncover insights and trends.",
+    "Design and implement innovative solutions.",
+    "Optimize workflows and enhance efficiency.",
+    "Manage stakeholder relationships and communications."
+            ],
+            "qulification":[
+                "Experience: Minimum 1 year of experience or potential freshers.",
+                "Analytical Skills: Analytical skills for policy analysis and data interpretation.",
+                "Report Development: Develop actionable implementation reports.",
+                "Business Model Design: Design scalable and sustainable business models.",
+                "Engagement: Engage with government institutions and private enterprises.",
+                "Financial and Business Development: Drive financial and business development."
+               ],
+               "location":"Mumbai",
+               "Department":"CEO Office",
+               "salary":"3-3.5  LPA" 
+   
+        
+        }
+
+
+
+
+
+     
+
+      ]
+
+    }
+
+

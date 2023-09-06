@@ -30,7 +30,7 @@ const MainVisionValue = () => {
       </div>
       <div className="md:w-1/2 lg:ml-4 xl:ml-0 flex flex-col justify-center gap-4 md:gap-4 lg:gap-6 xl:gap-12">
         <div className="hidden md:block">
-          <h1 className="font-bold xl:mx-auto lg:ml-14 md:text-4xl lg:text-5xl xl:text-7xl md:w-3/4 lg:w-3/5 xl:w-3/5 text-headGreen">
+          <h1 className="text-2xl md:text-4xl lg:text-5xl text-headGreen font-bold mx-auto w-max">
             Our Values & <span className="text-[#FCBB12]">Vision</span>
           </h1>
         </div>

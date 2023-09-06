@@ -51,7 +51,7 @@ const LgFooter = () => {
               </a>
             </div>
             <div className="bg-white rounded-full lg:h-12 lg:w-12 xl:h-14 xl:w-14 text-mediaIcons xl:pt-1">
-              <a href="https://twitter.com/salamkisan1" target="_blank">
+              <a href="https://twitter.com/salamkisan1?t=EBxwK74FmcEluN1S6PZSxg&s=09" target="_blank">
                 <AiOutlineTwitter className="w-3/4 m-auto" />
               </a>
             </div>
